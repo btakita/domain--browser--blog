@@ -4,7 +4,12 @@
 	"version": "0.0.0",
 	"module": "index.ts",
 	"types": "index.ts",
+	"exports": {
+		"./ctx": "./ctx/index.ts",
+		"./theme": "./theme/index.ts"
+	},
 	"dependencies": {
+		"@btakita/domain--any--blog": "workspace:*",
 		"ctx-core": "^5.35.1",
 		"rmemo": "^0.40.1"
 	},
