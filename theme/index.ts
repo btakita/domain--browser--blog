@@ -1,1 +1,1 @@
-export * from './theme__toggle_button_c__bind.ts'
+export * from './theme_toggle_button__bind.js'

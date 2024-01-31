@@ -6,12 +6,13 @@
 	"types": "index.ts",
 	"exports": {
 		"./ctx": "./ctx/index.ts",
+		"./header": "./header/index.ts",
 		"./theme": "./theme/index.ts"
 	},
 	"dependencies": {
 		"@btakita/domain--any--blog": "workspace:*",
-		"ctx-core": "^5.35.1",
-		"rmemo": "^0.40.1"
+		"ctx-core": "^5.36.0",
+		"rmemo": "^0.40.3"
 	},
 	"devDependencies": {
 		"bun-types": "latest"
