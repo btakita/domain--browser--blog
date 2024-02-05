@@ -5,7 +5,9 @@
 	"module": "index.ts",
 	"types": "index.ts",
 	"exports": {
-		"./ctx": "./ctx/index.ts"
+		".": "./index.ts",
+		"./ctx": "./ctx/index.ts",
+		"./package.json": "./package.json"
 	},
 	"dependencies": {
 		"@btakita/domain--any--blog": "workspace:*"
