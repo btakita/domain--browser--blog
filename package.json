@@ -1,8 +1,9 @@
 {
 	"name": "@rappstack/domain--browser--blog",
-	"type": "module",
 	"version": "0.0.0",
-	"types": "index.ts",
+	"type": "module",
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"description": "domain library targeting the browser for blogs",
 	"keywords": [
 		"rappstack",
@@ -20,11 +21,14 @@
 		"type": "git",
 		"url": "git+https://github.com/rappstack/domain--browser--blog.git"
 	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json"
+	],
+	"types": "index.ts",
 	"exports": {
 		".": "./index.ts",
-		"./ctx": "./ctx/index.ts",
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
